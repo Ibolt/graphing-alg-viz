@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npm run clean && ./build.js build",
     "clean": "rimraf build",
-    "start": "kotatsu serve $npm_config_example/index.ts --index $npm_config_example/index.html --public / $npm_config_example/public"
+    "start": "kotatsu serve index.ts --index index.html"
   },
   "kotatsu": {
     "config": "webpack.config.js"
